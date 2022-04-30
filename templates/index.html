@@ -1,0 +1,76 @@
+{% extends './plantilla.html' %}
+
+{% block title %} Home {% endblock %}
+    
+{% block body %}
+
+<div class="jumbotron">
+    <h1 class="display-4">Hola Sara!</h1>
+    <hr class="my-4">
+    <p class="lead">El dia de hoy queria hacerte un detalle, debido a el tiempo que hemos pasado juntos, las cosas que haz hecho por nosotros y tu amistad incondicional, pero no se me ocurrieron muchas cosas, asi que hice lo que mejor se hacer, te hice un sitio en donde esta escrito lo importante que eres para nosotros.</p>
+</div>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="lead">Por ahora te dejo estas imagenes de momentos que pasamos juntos tu y tus amigos</h1>
+    </div>
+    <ul class="slider">
+        <li id="1">
+            <img src="{{ url_for('static', filename='img/1.jpeg') }}" alt="">
+        </li>
+        <li id="2">
+            <img src="{{ url_for('static', filename='img/2.jpeg') }}" alt="">
+        </li>
+        <li id="3">
+            <img src="{{ url_for('static', filename='img/3.jpeg') }}" alt="">
+        </li>
+        <li id="4">
+            <img src="{{ url_for('static', filename='img/4.jpeg') }}" alt="">
+        </li>
+        <li id="5">
+            <img src="{{ url_for('static', filename='img/5.jpeg') }}" alt="">
+        </li>
+        <li id="6">
+            <img src="{{ url_for('static', filename='img/6.jpeg') }}" alt="" style="width: 50%; margin-left: 25%; margin-right: 25%;">
+        </li>
+        <li id="7">
+            <img src="{{ url_for('static', filename='img/7.jpeg') }}" alt="">
+        </li>
+        <li id="8">
+            <img src="{{ url_for('static', filename='img/8.jpeg') }}" alt="">
+        </li>
+    </ul>
+    <ul class="menu">
+        <li>
+            <a href="#1">1</a>
+        </li>
+        <li>
+            <a href="#2">2</a>
+        </li>
+        <li>
+            <a href="#3">3</a>
+        </li>
+        <li>
+            <a href="#4">4</a>
+        </li>
+        <li>
+            <a href="#5">5</a>
+        </li>
+        <li>
+            <a href="#6">6</a>
+        </li>
+        <li>
+            <a href="#7">7</a>
+        </li>
+        <li>
+            <a href="#8">8</a>
+        </li>
+    </ul>
+    <ul class="secret">
+        <li>
+            <a href="my-mind"></a>
+        </li>
+    </ul>
+</div>
+
+{% endblock %}
