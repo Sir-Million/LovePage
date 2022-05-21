@@ -254,32 +254,6 @@ ul.slider li:target {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 5);
 }
 
-.secret {
-    margin: 20px;
-    width: 100%;
-}
-
-.secret li {
-    display: inline-block;
-    width: 100%;
-}
-
-.secret li a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px;
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 50px;
-    width: 100%;
-}
-
-.secret li a:hover {
-    background-color: #2980B9;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 5);
-}
-
 /*music-----------------------------------------------------------------------*/
 
 .player {
